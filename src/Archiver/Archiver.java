@@ -13,9 +13,9 @@ public class Archiver {
                 operation = askOperation();
                 CommandExecutor.execute(operation);
             } catch (WrongZipFileException e) {
-                ConsoleHelper.writeMessage("You chose wrong file.");
+                ConsoleHelper.writeMessage("You select wrong file.");
             } catch (Exception e) {
-                ConsoleHelper.writeMessage("Error has been occurred. Check entered data and try again.");
+                ConsoleHelper.writeMessage("Error has been occurred. Try again.");
             }
 
         } while (operation != Operation.EXIT);
