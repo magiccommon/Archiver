@@ -66,7 +66,7 @@ public class ZipFileManager {
             if (Files.notExists(outputFolder))
                 Files.createDirectories(outputFolder);
 
-            // Going through zip stream content
+            // Going through zip stream contents
             ZipEntry zipEntry = zipInputStream.getNextEntry();
 
             while (zipEntry != null) {
