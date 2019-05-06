@@ -24,7 +24,7 @@ public class Archiver {
 
     public static Operation askOperation() throws IOException {
         ConsoleHelper.writeMessage("");
-        ConsoleHelper.writeMessage("Choose action:");
+        ConsoleHelper.writeMessage("Choose and enter the number of operation:");
         ConsoleHelper.writeMessage(String.format("\t %d - create new archive", Operation.CREATE.ordinal()));
         ConsoleHelper.writeMessage(String.format("\t %d - add file to the existing archive", Operation.ADD.ordinal()));
         ConsoleHelper.writeMessage(String.format("\t %d - delete file from the archive", Operation.REMOVE.ordinal()));

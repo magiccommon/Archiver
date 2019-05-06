@@ -31,13 +31,13 @@ public class FileProperties {
     }
 
     public long getCompressionRatio() {
-        // Вычисляем степень сжатия
+        // Calculating the compression ratio
         return 100 - ((compressedSize * 100) / size);
     }
 
     @Override
     public String toString() {
-        // Строим красивую строку из свойств
+        // Building a string of properties
         StringBuilder builder = new StringBuilder();
         builder.append(name);
         if (size > 0) {
@@ -45,7 +45,7 @@ public class FileProperties {
             builder.append(size / 1024);
             builder.append(" Kb (");
             builder.append(compressedSize / 1024);
-            builder.append(" Kb) сжатие: ");
+            builder.append(" Kb) compression ratio: ");
             builder.append(getCompressionRatio());
             builder.append("%");
         }

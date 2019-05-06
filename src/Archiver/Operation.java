@@ -4,7 +4,7 @@ public enum Operation {
     CREATE("create new archive"),
     ADD("add file to the existing archive"),
     REMOVE("delete file from the archive"),
-    EXTRACT("extract archive"),
+    EXTRACT("extract all from the archive"),
     CONTENT("view the contents of the archive"),
     EXIT("exit");
 
