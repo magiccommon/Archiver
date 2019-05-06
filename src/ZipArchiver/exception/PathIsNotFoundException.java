@@ -1,4 +1,4 @@
-package Archiver.exception;
+package ZipArchiver.exception;
 
 public class PathIsNotFoundException extends Exception {
 }

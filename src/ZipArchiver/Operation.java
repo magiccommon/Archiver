@@ -1,4 +1,4 @@
-package Archiver;
+package ZipArchiver;
 
 public enum Operation {
     CREATE("create new archive"),

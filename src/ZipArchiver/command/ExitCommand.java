@@ -1,6 +1,6 @@
-package Archiver.command;
+package ZipArchiver.command;
 
-import Archiver.ConsoleHelper;
+import ZipArchiver.ConsoleHelper;
 
 public class ExitCommand implements Command {
     @Override

@@ -1,4 +1,4 @@
-package Archiver;
+package ZipArchiver;
 
 public class FileProperties {
     private String name;

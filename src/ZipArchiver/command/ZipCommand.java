@@ -1,7 +1,7 @@
-package Archiver.command;
+package ZipArchiver.command;
 
-import Archiver.ConsoleHelper;
-import Archiver.ZipFileManager;
+import ZipArchiver.ConsoleHelper;
+import ZipArchiver.ZipFileManager;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

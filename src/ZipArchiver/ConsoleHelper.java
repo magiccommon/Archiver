@@ -1,4 +1,4 @@
-package Archiver;
+package ZipArchiver;
 
 import java.io.BufferedReader;
 import java.io.IOException;

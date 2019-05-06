@@ -1,7 +1,7 @@
-package Archiver;
+package ZipArchiver;
 
-import Archiver.exception.PathIsNotFoundException;
-import Archiver.exception.WrongZipFileException;
+import ZipArchiver.exception.PathIsNotFoundException;
+import ZipArchiver.exception.WrongZipFileException;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

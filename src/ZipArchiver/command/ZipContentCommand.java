@@ -1,8 +1,8 @@
-package Archiver.command;
+package ZipArchiver.command;
 
-import Archiver.ConsoleHelper;
-import Archiver.FileProperties;
-import Archiver.ZipFileManager;
+import ZipArchiver.ConsoleHelper;
+import ZipArchiver.FileProperties;
+import ZipArchiver.ZipFileManager;
 
 import java.util.List;
 

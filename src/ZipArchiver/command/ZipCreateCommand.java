@@ -1,7 +1,7 @@
-package Archiver.command;
+package ZipArchiver.command;
 
-import Archiver.*;
-import Archiver.exception.PathIsNotFoundException;
+import ZipArchiver.*;
+import ZipArchiver.exception.PathIsNotFoundException;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

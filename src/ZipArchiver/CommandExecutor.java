@@ -1,6 +1,6 @@
-package Archiver;
+package ZipArchiver;
 
-import Archiver.command.*;
+import ZipArchiver.command.*;
 
 import java.util.HashMap;
 import java.util.Map;
